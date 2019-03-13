@@ -1,8 +1,8 @@
 #! /bin/sh
 # set variables
 export PATH=$PATH:/home/dengshq/roaminglog_rules/
-DAY="20190321"
-HOUR="1700"
+DAY=$1
+HOUR=$2
 
 BASE_PATH="hdfs:///user/hive/warehouse/bss.db/roaminglog/"
 PART_EXPR="day=$DAY/minute=$HOUR"
