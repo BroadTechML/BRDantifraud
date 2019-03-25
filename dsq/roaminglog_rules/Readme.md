@@ -31,3 +31,4 @@ hdfs数据仓库位置：`BASE_PATH="hdfs:///user/hive/warehouse/bss.db/roamingl
 4. 模型识别：
 
 `python3 rule_model_run.py -input_data $OUTPUT_FEATURE_DATA -output_data $RESULT_DATA -model $MODEL_PKL`
+
